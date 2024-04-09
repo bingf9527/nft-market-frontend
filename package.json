@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build & cp ./config ./.next & cp ./config/.well-known ./.next/.well-known",
+    "build": "next build & ./cpfile.sh",
     "start": "next start",
     "lint": "next lint"
   },
